@@ -34,12 +34,11 @@ app.use(express.json());
 const corsOptions = {
 origin: [
    
-<<<<<<< HEAD
+
     'http://localhost:3000','https://builder.myorderz.com','https://gentle-macaron-1326ec.netlify.app'
-=======
-    'http://localhost:3000','https://builder.myorderz.com'
->>>>>>> 82f8f90 (added)
-  ],// Ensure this matches your client-side URL
+
+
+  ],
 
   methods: ['GET', 'POST', 'DELETE', 'PUT'],
   allowedHeaders: ['Content-Type', 'Authorization'],
